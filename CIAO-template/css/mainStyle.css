@@ -1,0 +1,209 @@
+body{
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    cursor: default;
+}
+.headerBlock{
+/*background-color: #0c5460;*/
+    height: 168px;
+    background: #f3f3f3;
+    z-index: 20;
+}
+
+.navContent{
+    position: relative;
+}
+
+.recruitment{
+    top: -1em;
+    right: 0;
+    position: absolute;
+    height: 125px;
+    transition: top .3s ease-in-out;
+}
+
+.headerBlock div.recruitment p{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.3em;
+    line-height: 10px;
+    padding-bottom: 0.5em;
+}
+
+.carriereLink{
+    display: block;
+    height: 100%;
+}
+
+.carriereLink:hover svg{
+    fill: #c93f00;
+    transition: fill 0.3s ease-in;
+}
+
+.recruitment svg{
+    height: 110%;
+    position: relative;
+    fill: #1b1e21;
+    transition: fill 0.3s ease-out;
+}
+
+.headerBlock a{
+    /*font-family: ms;*/
+    color: #262626;
+    text-decoration: none;
+    display: block;
+    /*padding-bottom: 10px;*/
+    /*margin-bottom: -1px;*/
+    border-bottom: none;
+    transition: border-color 300ms ease-out;
+    font-size: 1.05em;
+}
+
+.headerBlock li a.active{
+    border-bottom: 1px solid #c93f00;
+    transition: border-color 300ms ease-in;
+    padding-bottom: 9px;
+}
+
+.headerBlock .upperBlock{
+    height: 84px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.headerBlock .upperBlock div.container,
+.headerBlock .upperBlock div.row
+{
+    height: 100%;
+}
+
+.headerBlock .imageContainerBlock{
+    position: relative;
+    height: 100%;
+}
+
+.headerBlock .imageLogoDiv{
+    background-color: #f3f3f3;
+    position: absolute;
+    height: 168px;
+    left: 0px;
+    top: 0;
+    transition: top .3s ease-in-out;
+}
+
+.headerBlock .imageLogoDiv img{
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 0;*/
+}
+
+@media (max-width: 991px){
+    header  .headerBlock .imageLogoDiv{
+         top: -35px;
+     }
+    header .recruitment{
+        top: -50px;
+    }
+}
+/*----------------------------------Home Section*/
+/*----------------------------------Home Section*/
+/*----------------------------------Home Section*/
+.home.intro {
+    height: 80vh;
+    position: relative;
+}
+
+.home .bgBackOne{
+    top: 0;
+    left: 0;
+    height: 110%;
+    background: url(../images/bg-left.jpg) repeat-x left top;
+    width: 100%;
+    z-index: -15;
+    position: absolute;
+    margin-top: -166px;
+}
+
+.home .textContainerTI{
+    position: relative;
+}
+
+.home .bgCenter {
+    /*color: white;*/
+    top: 0;
+    left: 0;
+    z-index: -10;
+    background: url("../images/bg-center.jpg") no-repeat center top;
+    height: 110%;
+    width: 100%;
+    position: absolute;
+    margin-top: -166px;
+}
+
+.home .intro-in {
+    width: 92%;
+    margin: auto;
+    color: white;
+    padding: 22px 0 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.home .intro-in h1 {
+    color: white;
+    margin-top: 0;
+    background: rgba(38, 38, 38, 0.7);
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    padding: 0 20px 5px 10px;
+    margin-left: -10px;
+    margin-bottom: 0;
+}
+
+h1, .h1 {
+    font-size: 2.5em;
+}
+
+p {
+    line-height: 1.438em;
+    /* margin-bottom: 16px; */
+}
+
+p {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 1em;
+    text-rendering: optimizeLegibility;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+
+.home .intro-in p {
+    /* margin-bottom: 0; */
+    background: rgba(38, 38, 38, 0.7);
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    margin-bottom: 0;
+    margin-left: -10px;
+}
+
+.home .intro-in{
+    top: 220px;
+}
